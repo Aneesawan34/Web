@@ -1,0 +1,21 @@
+h1.heading
+{
+    text-align: center;
+    background-color: dodgerblue;
+    color:red;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+button
+{
+    background-color: moccasin;
+    border: 2px solid;
+    width: 50px;
+    border-radius: 20%;
+}
+button a
+{
+    color: sienna;
+    font-family: sans-serif;
+    font-weight: bold;
+}
