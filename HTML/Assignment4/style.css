@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    background-image: url("./images/landscape-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    text-align: center;
+    width: 21%;
+    /* height: 60%; */
+    transform: translateY(60px);
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    background-color: darkslategrey;
+    border: 2px thin;
+}
+fieldset 
+{
+    max-width: 100%;
+    max-height: 100%;
+    border-left: thin;
+    border-right: 1px;
+    border-bottom: hidden;
+    /* border-left: hidden */
+}
+legend
+{
+    font-size: 25px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form2</title>
+    <style>
+        body
+        {
+            background-image: url("landscape-01.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form
+        {
+            width: 500px;
+            text-align: center;
+            padding: 25px 0px;
+            transform: translateX(400px);
+        }
+        form label:hover
+        {
+            background-color: darkgray;
+        }
+        legend
+        {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend align="center">Sign up</legend>
+            <br/>
+            <label for="first_name">First Name:</label>
+            <input type="text" required="required" pattern="^[A-Z,a-z]+$" />
+            <br/>
+            <br/>
+            <label for="Last_name">Last Name:</label>
+            <input type="text" required="required" pattern="^[A-Z,a-z]+$" />
+            <br/>
+            <br/>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="Male" checked="checked"/><span>Male</span>
+            <input type="radio" name="Male"/><span>Female</span>
+            <br/>
+            <br/>
+            <label for="Skills">Skills:</label>
+            <input type="checkbox" name="Skills"  value="Html" checked="checked"/><span>Html</span>
+            <input type="checkbox" name="Skills" value="Css"/><span>Css</span>
+            <input type="checkbox" name="Skills" value="Bootstrap"/><span>Bootstrap</span>
+            <input type="checkbox" name="Skills" value="Javascript"/><span>Javascript</span>
+            <input type="checkbox" name="Skills" value="React"/><span>React</span>
+            <br/>
+            <br/>
+            <label for="Speaking">Speaking:</label>
+            <select name="Speaking language" size="1" multiple="multiple">
+                <option>Select</option>
+                <option selected="selected">Urdu</option>
+                <option>English</option>
+                <option>China</option>
+                <option>Other</option>
+            </select>
+            <br/>
+            <br/>
+            <label for="date_of_birth">Date Of Birth:</label>
+            <select name="date">
+            <option>Date</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+        </select name="Month">
+        <select>
+            <option>Month</option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>OCtober</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+        <select name="Year">
+            <option>Year</option>
+            <option>1985</option>
+            <option>1986</option>
+            <option>1987</option>
+            <option>1988</option>
+            <option>1989</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+        </select>
+        <br/>
+        <br/>
+        <textarea name="Comment" rows="4" cols="20">Add comments...</textarea>
+        <br/>
+        <br/>
+        <label for="file">Upload CV:</label>
+        <input type="file" value="CV"/>
+        <br/>
+        <br/>
+        <input type="submit" value="Submit"/>
+    </fieldset>
+</form>
+</body>
+</html>
